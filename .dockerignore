@@ -1,0 +1,56 @@
+# Ignorar Git
+.git
+.gitignore
+
+# Ignorar arquivos de build e publicação locais
+bin/
+obj/
+out/
+
+# Ignorar configurações locais
+*.user
+*.vspscc
+*.suo
+*.userosscache
+*.userprefs
+
+# Pasta do Visual Studio
+.vs/
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários do sistema
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Configurações do IDE
+.vscode/
+.idea/
+
+# Arquivos de publicação
+*.publishsettings
+
+# docker-compose overrides locais
+docker-compose.override.yml
+docker-compose.override.*.yml
+
+# pacotes baixados (podem ser restaurados)
+packages/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Node (caso tenha front junto)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Arquivos gerados
+wwwroot/dist/
+wwwroot/node_modules/
